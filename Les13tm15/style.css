@@ -52,7 +52,6 @@ li:hover{
     width: 50%;
     border: 2px;
     padding: 5px;
-    border-style: solid;
     margin: 3px;
     text-align: center;
     min-width: 550px;
@@ -65,7 +64,6 @@ li:hover{
     width: 50%;
     border: 2px;
     padding: 5px;
-    border-style: solid;
     margin: 3px;
     font-size: 50px;
     min-width: 500px;
