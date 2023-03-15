@@ -160,3 +160,7 @@ h2{
     margin: auto;
     margin-left: 130px
 }
+#textarea{
+    width: 400px;
+    height: 150px;
+}
