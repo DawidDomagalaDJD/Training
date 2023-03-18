@@ -111,6 +111,15 @@ h1{
     font-weight: 600;
     color: aliceblue;
 }
+.title-sch{
+    margin: 5px;
+    float: left;
+    width: 48%;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+}
 .year{
     margin: 5px;
     margin-right: 23px;
@@ -120,6 +129,16 @@ h1{
     text-align: right;
     font-weight: 600;
     color: azure;
+}
+.year-sch{
+    margin: 5px;
+    margin-right: 23px;
+    float: right;
+    width: 48%;
+    font-size: 25px;
+    text-align: right;
+    font-weight: 600;
+    color: black;
 }
 .about{
     float: right;
@@ -193,4 +212,13 @@ button:hover{
     color: aliceblue;
     background-color: #84735e;
 }
-
+.school{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 40px;
+    background-color: #dbd0bd;
+    border-radius: 1%;
+    box-shadow: 7px 7px;
+    color: black;
+}
