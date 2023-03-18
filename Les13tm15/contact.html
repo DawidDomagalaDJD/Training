@@ -19,26 +19,28 @@
             <li class="menu"><a href="contact.html">Contact</a></li>
         </ul>
     </header>
-    <form>
+    
         <div class="contact">
+            <div class="form1">
+                <h2>Contact me </h2>
+            <form action="https://formspree.io/f/mqkodzap" method="POST">
+            <label for="Name">First name:</label><br>
+            <input type="text" id="Name" name="name"><br>
 
-            <label for="Name">First name</label>
-            <input type="text" id="Name" name="name">
+            <label for="Name2">Last name</label><br>
+            <input type="text" id="Name2" name="surname"><br>
 
-            <label for="Name2">surname</label>
-            <input type="text" id="Name2" name="surname">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <label for="textarea">Your message:</label><br>
+            <textarea id="textarea" name="textarea"></textarea><br>
 
-            <label for="Name">First name</label>
-            <input type="textbox" id="Name" name="name">
+            <button type="submit" value="Submit">Sent message</button>
 
-            <label for="textarea">Your message:</label>
-            <textarea id="textarea" name="textarea"></textarea>
-
+            </form>
         </div>
-    </form> 
+        </div> 
     <footer class="Foot">
         <p>© Copyright, Dawid Domagala</p>
     </footer>
