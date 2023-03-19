@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1200px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -19,25 +21,70 @@
     .col-12 {width: 100%;}
   }
 
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
 body{
     background-color: darkgrey;
 }
 header{
-    height: 150px;
+    height: 90px;
     background-color: grey;
+    background-image: url(pictures/Rotterdam.jpg);
+    background-size: 1024px ;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 15px;
+    color: aliceblue;
 }
 footer{
   background-color: grey;
+  text-align: center;
+  padding: 15px;
+  clear: both;
 }
-.menu{
-  background-color: blueviolet;
-  display: table;
+
+.left{
+  background-color: aquamarine;
+  float: left;
+  height: 100%;
 }
-.menu ul{
-  list-style-type: none;
+
+.right{
+  background-color: rgb(136, 86, 86);
+  float: left;
 }
-.menu li{
-  margin-bottom: 8px;
+h2{
+  text-align: center;
+}
+.artikel{
+  padding: 10px;
+  height: auto;
+}
+.title-artikel{
+  font-size: 20px;
+  font-weight: 700;
+}
+.artikel img{
+  float: left;
+  margin-right: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 5px;
+}
+.imgright{
+  float: right;
+}
+.empty{
+  float: right;
+  background-color: aqua;
+  text-align: center;
+  font-size: 16px;
+  height: 100%;
+}
+.central{
+  padding: 5px;
 }
