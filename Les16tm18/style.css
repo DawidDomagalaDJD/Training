@@ -29,5 +29,10 @@ header{
 .menu{
   background-color: blueviolet;
   display: table;
-  text-align: center;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu li{
+  margin-bottom: 8px;
 }
