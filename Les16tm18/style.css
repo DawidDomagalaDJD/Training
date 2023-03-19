@@ -26,6 +26,7 @@ header{
     height: 150px;
     background-color: grey;
     text-align: center;
+    padding: 15px;
 }
 footer{
   background-color: grey;
