@@ -26,6 +26,9 @@ header{
     height: 150px;
     background-color: grey;
 }
+footer{
+  background-color: grey;
+}
 .menu{
   background-color: blueviolet;
   display: table;
