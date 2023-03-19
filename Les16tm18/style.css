@@ -25,6 +25,7 @@ body{
 header{
     height: 150px;
     background-color: grey;
+    text-align: center;
 }
 footer{
   background-color: grey;
