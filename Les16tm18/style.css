@@ -27,35 +27,41 @@ h1{
 }
 
 body{
-    background-color: darkgrey;
+    background-color: #072f38;
 }
 header{
     height: 90px;
-    background-color: grey;
+    background-color: #334e3b;
     background-image: url(pictures/Rotterdam.jpg);
     background-size: 1024px ;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     padding: 15px;
-    color: aliceblue;
+    color: white;
+    border-radius: 15px;
 }
 footer{
-  background-color: grey;
+  background-color: #474344;
   text-align: center;
   padding: 15px;
   clear: both;
+  border-radius: 15px;
+  color: white;
 }
 
 .left{
-  background-color: aquamarine;
+  background-color: #e5bd77;
   float: left;
   height: 100%;
+  border-radius: 15px;
 }
 
 .right{
-  background-color: rgb(136, 86, 86);
+  background-color: #cc7952;
   float: left;
+  border-radius: 15px;
+  padding-bottom: 10px;
 }
 h2{
   text-align: center;
@@ -81,11 +87,12 @@ h2{
 }
 .empty{
   float: right;
-  background-color: aqua;
+  background-color: #943d2c;
   text-align: center;
   font-size: 16px;
-
+  border-radius: 15px;
+  color: azure;
 }
 .central{
-  padding: 5px;
+  padding: 15px;
 }
