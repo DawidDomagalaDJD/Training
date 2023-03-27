@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kubus{
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            background-color: blue;
+            animation-name: animatie;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        .kubus1{
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            background-color: red;
+            animation-name: animatie;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animatie {
+            0% {margin-left: 0px;}
+            25% {margin-left: 25%;}
+            50% {margin-left: 50%;}
+            75% {margin-left: 75%;}
+            100% {margin-left: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="kubus">
+        <span>kubus 1</span>
+    </div>
+    <div class="kubus1">
+        <span>kubus 2</span>
+    </div>
+</body>
+</html>
