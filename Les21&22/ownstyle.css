@@ -8,3 +8,9 @@
 .card-header{
     text-align: center;
 }
+.btn{
+    border-radius: 15px;
+}
+.footer{
+    height: 200px;
+}
